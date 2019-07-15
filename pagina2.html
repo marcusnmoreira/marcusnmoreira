@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Landing Page - Start Bootstrap Theme</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-light static-top">
+    <div class="container">
+      <img src="img/logo_menu.png" class="mx-auto d-block" alt=""> 
+    </div>
+  </nav>
+
+  <!-- Título + Barra de progresso -->
+  <div class="jumbotron bg-white">
+    <div class="row">
+  <div class="col-xl-9 mx-auto">
+      <h2 class="mb-5 text-center">Estruture as frases do seu documento</h2>
+    </div>
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="container">
+      <div class="row">
+      <div class="col-3"></div> 
+      <div class="col-6">
+      <div class="col-3"></div> 
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 20%;background-color: #00BDC6" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </div> 
+
+  <!-- Questionário -->
+  <div class="container">
+    <div class="row">
+      
+      <!--Primeira pergunta -->
+      <div class="col-10 mx-auto">
+          <div class="d-flex">
+              <div class="mr-auto p-2">5. As frases do seu texto possuem mais de 20 palavras?</div>
+              <div class="p-0">
+                  <button type="button" class="m-1 my-2 btn btn-warning" data-toggle="collapse"  href="#quest1sim" aria-expand="false" aria-controls="quest1sim">Sim</button>
+              </div>
+              <div class="p-0">
+                  <button type="button" class="m-1 my-2 btn btn-warning" data-toggle="collapse" href="#quest1nao" aria-expand="false" aria-controls="quest1nao">Não</button>
+              </div>
+            </div>
+            <div id="quest1">
+              <div class="collapse" id="quest1sim" data-parent="#quest1">
+                  <div class="card card-body">
+                    Frases com menos de 20 palavras são mais fáceis de entender, pois a informação está mais direta.
+                  </div>
+              </div>
+              <div class="collapse" id="quest1nao" data-parent="#quest1">
+                  <div class="card card-body">
+                    Tente reduzir o número de palavras.
+                    Frases com menos de 20 palavras são mais fáceis de entender, pois a informação está mais direta.
+                    Dica: Revise a pontuação do seu texto e procurei deixar uma ideia por frase.
+                  </div>
+              </div>
+          </div>
+            
+            <hr>
+      </div>
+
+      <!-- Segunda Pergunta -->
+      <div class="col-10 mx-auto">
+          <div class="d-flex">
+              <div class="mr-auto p-2">6. As frases do seu texto estão em ordem direta - na sequência de sujeito, verbo e predicado?</div>
+              <div class="p-0">
+                  <button type="button" class="m-1 my-2 btn btn-warning" data-toggle="collapse"  href="#quest2sim" aria-expand="false" aria-controls="quest2sim">Sim</button>
+              </div>
+              <div class="p-0">
+                  <button type="button" class="m-1 my-2 btn btn-warning" data-toggle="collapse" href="#quest2nao" aria-expand="false" aria-controls="quest2nao">Não</button>
+              </div>
+            </div>
+            <div id="quest2">
+              <div class="collapse" id="quest2sim" data-parent="#quest2">
+                  <div class="card card-body">
+                    Frases em ordem direta são mais fáceis de entender, pois apresentam uma ordem lógica de informações e deixam claro os responsáveis pela ação.
+                  </div>
+              </div>
+              <div class="collapse" id="quest2nao" data-parent="#quest2">
+                  <div class="card card-body">
+                    Tente alterar a estrutura da frase.
+                    Substitua “Ontem, o parceiro escreveu o documento” por  “O parceiro escreveu o documento ontem”, colocando na ordem (sujeito, verbo, predicado).
+                    Frases em ordem direta são mais fáceis de entender, pois apresentam uma ordem lógica de informações  e deixam claro os responsáveis pela ação                                          
+                  </div>
+              </div>
+          </div>
+            
+            <hr>
+      </div>
+ 
+      <!-- Terceira Pergunta -->
+      <div class="col-10 mx-auto">
+          <div class="d-flex">
+              <div class="mr-auto p-2">7. O seu texto utiliza substantivos que exercem função de verbo, como “facilitação” ou “substituição”?</div>
+              <div class="p-0">
+                  <button type="button" class="m-1 my-2 btn btn-warning" data-toggle="collapse"  href="#quest3sim" aria-expand="false" aria-controls="quest3sim">Sim</button>
+              </div>
+              <div class="p-0">
+                  <button type="button" class="m-1 my-2 btn btn-warning" data-toggle="collapse" href="#quest3nao" aria-expand="false" aria-controls="quest3nao">Não</button>
+              </div>
+            </div>
+            <div id="quest3">
+              <div class="collapse teste1" id="quest3sim" data-parent="#quest3">
+                  <div class="card card-body">
+                    Verbos comunicam a ação que deve ser feita de forma mais direta do que substantivos.
+                  </div>
+              </div>
+              <div class="collapse teste2" id="quest3nao" data-parent="#quest3">
+                  <div class="card card-body">
+                    Tente colocar um verbo no lugar do substantivo.
+                    Substitua “facilitação” por “facilitar” ou “facilite”, e “substituição” por “substituir” ou “substitua”.
+                    Verbos comunicam a ação que deve ser feita de forma mais direta do que substantivos.                                     
+                  </div>
+              </div>
+          </div>
+            
+            <hr>
+      </div>
+
+      <!-- Quarta Pergunta -->
+      <div class="col-10 mx-auto">
+          <div class="d-flex">
+              <div class="mr-auto p-2">8. O seu texto utiliza verbos claros que expressam ações diretas?</div>
+              <div class="p-0">
+                  <button type="button" class="m-1 my-2 btn btn-warning" data-toggle="collapse"  href="#quest4sim" aria-expand="false" aria-controls="quest4sim">Sim</button>
+              </div>
+              <div class="p-0">
+                  <button type="button" class="m-1 my-2 btn btn-warning" data-toggle="collapse" href="#quest4nao" aria-expand="false" aria-controls="quest4nao">Não</button>
+              </div>
+            </div>
+            <div id="quest4">
+              <div class="collapse" id="quest4sim" data-parent="#quest4">
+                  <div class="card card-body">
+                    Verbos na ação direta deixam a ação que deve ser feita mais clara
+                  </div>
+              </div>
+              <div class="collapse" id="quest4nao" data-parent="#quest4">
+                  <div class="card card-body">
+                    Se a sua intenção é que o leitor faça alguma ação, tente substituir por um verbo de ação direta.
+                    Substitua “compartilhar” por “compartilhe”, e “divulgar” por “divulgue”.</br>
+                    Verbos na ação direta deixam a ação que deve ser feita mais clara. 
+                  </div>
+              </div>
+          </div>
+            
+            <hr>
+      </div>
+      
+      <!-- Botões voltar e próximo-->
+      <div class="col-10 mx-auto mt-3 mb-5">
+        <div class="d-flex">
+          <div class="mr-auto">
+            <button type="button" class="btn btn-primary btn-lg" onclick="location.href= '/index.html'">Voltar</button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-primary btn-lg" onclick="location.href= '/pagina3.html'">Próximo</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer class="footer" style="background-color: black">
+    <div class="container">
+      <div class="row mx-auto">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto mx-auto">
+          <img src="img/logo_rodape.png" class="mx-auto d-block" alt="">
+          <p class="text-white text-center mb-lg-0">liguagemsimples@prefeitura.sp.gov.br</p>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

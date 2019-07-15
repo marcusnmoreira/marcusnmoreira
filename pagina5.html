@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Landing Page - Start Bootstrap Theme</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-light static-top">
+    <div class="container">
+      <img src="img/logo_menu.png" class="mx-auto d-block" alt=""> 
+    </div>
+  </nav>
+
+  <!-- Título + Barra de progresso -->
+  <div class="jumbotron bg-white">
+    <div class="row">
+  <div class="col-xl-9 mx-auto">
+      <h2 class="mb-5 text-center">Utilize elementos não-textuais no seu documento</h2>
+    </div>
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="container">
+      <div class="row">
+      <div class="col-3"></div> 
+      <div class="col-6">
+      <div class="col-3"></div> 
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 80%;background-color: #00BDC6" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </div> 
+
+  <!-- Questionário -->
+  <div class="container">
+    <div class="row">
+      
+      <!--Primeira pergunta -->
+      <div class="col-10 mx-auto">
+          <div class="d-flex">
+              <div class="mr-auto p-2">18. O seu texto utiliza ícones que complementam a informação presente no texto?</div>
+              <div class="p-0">
+                  <button type="button" class="m-1 my-2 btn btn-warning" data-toggle="collapse"  href="#quest1sim" aria-expand="false" aria-controls="quest1sim">Sim</button>
+              </div>
+              <div class="p-0">
+                  <button type="button" class="m-1 my-2 btn btn-warning" data-toggle="collapse" href="#quest1nao" aria-expand="false" aria-controls="quest1nao">Não</button>
+              </div>
+            </div>
+            <div id="quest1">
+              <div class="collapse" id="quest1sim" data-parent="#quest1">
+                  <div class="card card-body">
+                    Usar ícones e imagens é um ótimo jeito de complementar e deixar mais fácil  o conteúdo de uma frase ou parágrafo.
+                  </div>
+              </div>
+              <div class="collapse" id="quest1nao" data-parent="#quest1">
+                  <div class="card card-body">
+                    Adicione ícones e imagens no seu documento.
+                    Exemplo - Ao falar do orçamento de um projeto,  você pode colocar um ícone de moeda ou dinheiro. 
+                    O uso de ícones e imagens é um ótimo jeito de complementar e deixar mais fácil  o conteúdo de uma frase ou parágrafo.
+                  </div>
+              </div>
+          </div>
+            
+            <hr>
+      </div>
+
+      <!-- Segunda Pergunta -->
+      <div class="col-10 mx-auto">
+          <div class="d-flex">
+              <div class="mr-auto p-2">19. Os elementos visuais do seu texto, como cores, quadros, ícones possuem o mesmo padrão?</div>
+              <div class="p-0">
+                  <button type="button" class="m-1 my-2 btn btn-warning" data-toggle="collapse"  href="#quest2sim" aria-expand="false" aria-controls="quest2sim">Sim</button>
+              </div>
+              <div class="p-0">
+                  <button type="button" class="m-1 my-2 btn btn-warning" data-toggle="collapse" href="#quest2nao" aria-expand="false" aria-controls="quest2nao">Não</button>
+              </div>
+            </div>
+            <div id="quest2">
+              <div class="collapse" id="quest2sim" data-parent="#quest2">
+                  <div class="card card-body">
+                    Elementos visuais muito diferentes cansam e deixam a leitura confusa. Manter a mesma identidade visual durante todo o documento facilita o entendimento pelo leitor.
+                  </div>
+              </div>
+              <div class="collapse" id="quest2nao" data-parent="#quest2">
+                  <div class="card card-body">
+                    Identifique recursos visuais que destacam as informações do seu texto e utilize o mesmo padrão.
+                    Elementos visuais muito diferentes cansam e deixam a leitura confusa. Manter a mesma identidade visual durante todo o documento facilita o entendimento pelo leitor.
+                  </div>
+              </div>
+          </div>
+            
+            <hr>
+      </div>
+      
+      <!-- Botões voltar e próximo-->
+      <div class="col-10 mx-auto mt-3 mb-5">
+        <div class="d-flex">
+          <div class="mr-auto">
+            <button type="button" class="btn btn-primary btn-lg" onclick="location.href='/pagina4.html'">Voltar</button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-primary btn-lg" onclick="location.href='/pagina6.html'">Próximo</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer class="footer" style="background-color: black">
+    <div class="container">
+      <div class="row mx-auto">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto mx-auto">
+          <img src="img/logo_rodape.png" class="mx-auto d-block" alt="">
+          <p class="text-white text-center mb-lg-0">liguagemsimples@prefeitura.sp.gov.br</p>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
